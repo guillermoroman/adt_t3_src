@@ -1,17 +1,16 @@
-package JDBC_creacion_tabla;
+package JDBC_DDL;
 
 import databaseConnection.DatabaseConnection;
 
 import java.sql.Connection;
-import java.sql.PreparedStatement;
 import java.sql.SQLException;
 import java.sql.Statement;
 
-public class JDBC_creacion_tabla {
+public class JDBC_DDL {
     public static void main(String[] args) {
-        //createTable();
+        createTable();
         //alterTable();
-        dropTable();
+        //dropTable();
     }
 
     public static void createTable(){
